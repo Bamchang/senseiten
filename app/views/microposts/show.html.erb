@@ -1,19 +1,25 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <strong>User:</strong>
+  <%= @micropost.user_id %>
+</p>
+
+<p>
   <strong>Teacher name:</strong>
   <%= @micropost.teacher_name %>
 </p>
 
 <p>
+  <strong>Rate:</strong>
+  <%= @micropost.rate %>
+</p>
+<p>
   <strong>Content:</strong>
   <%= @micropost.content %>
 </p>
 
-<p>
-  <strong>User:</strong>
-  <%= @micropost.user_id %>
-</p>
+
 
 <%= link_to 'Edit', edit_micropost_path(@micropost) %> |
 <%= link_to 'Back', microposts_path %>
