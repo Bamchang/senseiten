@@ -25,3 +25,6 @@ doc/
 	.secret
 
 
+public/uploads
+tmp
+logs
